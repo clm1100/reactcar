@@ -1,5 +1,5 @@
 import React ,{Component} from 'react';
-import { BrowserRouter as Router,Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router,Switch, Route } from "react-router-dom";
 import Index from "./pages/home/home";
 import Cart from "./pages/cart/cart";
 import About from "./pages/about/about";
@@ -10,9 +10,6 @@ import './style/css/base.css';
 
 
 class App extends Component {
-    constructor(){
-        super()
-    }
     render(){
         return (
 

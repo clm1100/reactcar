@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 
 class Footer extends Component{
-    constructor(){
-        super()
-    }
     render(){
         return (<div className="footer">
                         <div className="w">
@@ -49,48 +46,48 @@ class Footer extends Component{
                         <div className="mod_help">
                                 <dl className="mod_help_item">
                                     <dt>购物指南</dt>
-                                    <dd> <a href="#">购物流程 </a></dd>
-                                    <dd> <a href="#">会员介绍 </a></dd>
-                                    <dd> <a href="#">生活旅行/团购 </a></dd>
-                                    <dd> <a href="#">常见问题 </a></dd>
-                                    <dd> <a href="#">大家电 </a></dd>
-                                    <dd> <a href="#">联系客服 </a></dd>
+                                    <dd> <a href={"/"}>购物流程 </a></dd>
+                                    <dd> <a href={"/"}>会员介绍 </a></dd>
+                                    <dd> <a href={"/"}>生活旅行/团购 </a></dd>
+                                    <dd> <a href={"/"}>常见问题 </a></dd>
+                                    <dd> <a href={"/"}>大家电 </a></dd>
+                                    <dd> <a href={"/"}>联系客服 </a></dd>
                                 </dl>
                                 <dl className="mod_help_item">
                                     <dt>购物指南</dt>
-                                    <dd> <a href="#">购物流程 </a></dd>
-                                    <dd> <a href="#">会员介绍 </a></dd>
-                                    <dd> <a href="#">生活旅行/团购 </a></dd>
-                                    <dd> <a href="#">常见问题 </a></dd>
-                                    <dd> <a href="#">大家电 </a></dd>
-                                    <dd> <a href="#">联系客服 </a></dd>
+                                    <dd> <a href={"/"}>购物流程 </a></dd>
+                                    <dd> <a href={"/"}>会员介绍 </a></dd>
+                                    <dd> <a href={"/"}>生活旅行/团购 </a></dd>
+                                    <dd> <a href={"/"}>常见问题 </a></dd>
+                                    <dd> <a href={"/"}>大家电 </a></dd>
+                                    <dd> <a href={"/"}>联系客服 </a></dd>
                                 </dl>
                                 <dl className="mod_help_item">
                                     <dt>购物指南</dt>
-                                    <dd> <a href="#">购物流程 </a></dd>
-                                    <dd> <a href="#">会员介绍 </a></dd>
-                                    <dd> <a href="#">生活旅行/团购 </a></dd>
-                                    <dd> <a href="#">常见问题 </a></dd>
-                                    <dd> <a href="#">大家电 </a></dd>
-                                    <dd> <a href="#">联系客服 </a></dd>
+                                    <dd> <a href={"/"}>购物流程 </a></dd>
+                                    <dd> <a href={"/"}>会员介绍 </a></dd>
+                                    <dd> <a href={"/"}>生活旅行/团购 </a></dd>
+                                    <dd> <a href={"/"}>常见问题 </a></dd>
+                                    <dd> <a href={"/"}>大家电 </a></dd>
+                                    <dd> <a href={"/"}>联系客服 </a></dd>
                                 </dl>
                                 <dl className="mod_help_item">
                                     <dt>购物指南</dt>
-                                    <dd> <a href="#">购物流程 </a></dd>
-                                    <dd> <a href="#">会员介绍 </a></dd>
-                                    <dd> <a href="#">生活旅行/团购 </a></dd>
-                                    <dd> <a href="#">常见问题 </a></dd>
-                                    <dd> <a href="#">大家电 </a></dd>
-                                    <dd> <a href="#">联系客服 </a></dd>
+                                    <dd> <a href={"/"}>购物流程 </a></dd>
+                                    <dd> <a href={"/"}>会员介绍 </a></dd>
+                                    <dd> <a href={"/"}>生活旅行/团购 </a></dd>
+                                    <dd> <a href={"/"}>常见问题 </a></dd>
+                                    <dd> <a href={"/"}>大家电 </a></dd>
+                                    <dd> <a href={"/"}>联系客服 </a></dd>
                                 </dl>
                                 <dl className="mod_help_item">
                                     <dt>购物指南</dt>
-                                    <dd> <a href="#">购物流程 </a></dd>
-                                    <dd> <a href="#">会员介绍 </a></dd>
-                                    <dd> <a href="#">生活旅行/团购 </a></dd>
-                                    <dd> <a href="#">常见问题 </a></dd>
-                                    <dd> <a href="#">大家电 </a></dd>
-                                    <dd> <a href="#">联系客服 </a></dd>
+                                    <dd> <a href={"/"}>购物流程 </a></dd>
+                                    <dd> <a href={"/"}>会员介绍 </a></dd>
+                                    <dd> <a href={"/"}>生活旅行/团购 </a></dd>
+                                    <dd> <a href={"/"}>常见问题 </a></dd>
+                                    <dd> <a href={"/"}>大家电 </a></dd>
+                                    <dd> <a href={"/"}>联系客服 </a></dd>
                                 </dl>
                                 <dl className="mod_help_item mod_help_app">
                                     <dt>帮助中心</dt>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-
+import {connect} from "react-redux";
 class carheader extends Component {
+    
     render() {
         return (
             <div className="car-header">
@@ -14,4 +15,10 @@ class carheader extends Component {
     }
 }
 
-export default carheader
+let mapstatetoprops = (state=>{
+    return {
+        car:state.car
+    }
+})
+
+export default connect(mapstatetoprops)(carheader);
