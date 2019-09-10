@@ -13,7 +13,6 @@ function getdata() {
     }
 }
 
-
 function setdata(e) {
     return function (dispatch) {
         setTimeout(() => {
@@ -22,6 +21,14 @@ function setdata(e) {
         }, 300);
     }
 }
+
+
+function selectdata(e) {
+    return function (dispatch) {
+        dispatch({ type: "update", payload: e })
+    }
+}
+
 
 function selectAll(all){
     console.log(all);
@@ -33,6 +40,4 @@ function selectAll(all){
     }
 }
 
-
-
-export { getdata, setdata, selectAll}
+export { getdata, setdata, selectdata, selectAll}

@@ -17,7 +17,6 @@ function Cartitle(){
     )
 }
 
-
 class Cart extends Component {
     constructor(){
         super()

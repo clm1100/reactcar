@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 
 import {connect} from 'react-redux';
-import { setdata } from "../../../store/actions/car";
+import { setdata ,selectdata} from "../../../store/actions/car";
 
 class Item extends Component {
     constructor(props){
@@ -12,7 +12,8 @@ class Item extends Component {
         }
     }
     select(id,event){
-        this.props.dispatch(setdata({ checked: event.target.checked, id }))
+        // this.props.dispatch(setdata({ checked: event.target.checked, id }))
+        this.props.dispatch(selectdata({ checked: event.target.checked, id }))
     }
     addone(e){
         e.count++;
